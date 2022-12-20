@@ -1,5 +1,5 @@
 # Cypress_telnyx_task
-  align="center">Installing</h3>
+ <h3>Installing</h3>
 
 In terminal type:
 
