@@ -1,4 +1,6 @@
 # Cypress_telnyx_task
+10 test cases. Site https://telnyx.com
+
  <h3>Installing</h3>
 
 In terminal type:
