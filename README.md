@@ -1,24 +1,29 @@
 # Cypress_telnyx_task
   align="center">Installing</h3>
-In terminal type: npm install
+
+In terminal type:
+
 npm init -y
+
+Run the following command in terminal:
 
 npm install cypress --save-dev
 
-npm i -D cypress @bahmutov/cypress-esbuild-preprocessor esbuild --save-dev
+Go to package.json file and add in two different scripts, for cypress run and the other for cypress open:
+
+"scripts": {
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open"
+},
 
 <h3 align="center">How to open and run a project</h3>
-Download or clone project from repository
-Open the project folder in VSCode or another IDE
 
-The test scripts are located at: cypress\e2e\test\ \*.cy.js
+Run the following command to open Cypress:
 
-The page objects are in: cypress\e2e\page\ \*.page.js
+npm run cypress:open
 
-Run
-Launch Cypress with the following commands in the terminal:
+The test scripts are located at: cypress\e2e\ \*.cy.js
 
-npx cypress open (to run in headed mode)
+The page objects are in: cypress\pages\ \*.page.js
 
-After a while, the cypress will open. In the window that opens, click on any of the tests: \*.cy.js
 
