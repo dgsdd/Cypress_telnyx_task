@@ -16,7 +16,7 @@ Go to package.json file and add in two different scripts, for cypress run and th
     "cypress:open": "cypress open"
 },
 
-<h3 align="center">How to open and run a project</h3>
+<h3>How to open and run a project</h3>
 
 Run the following command to open Cypress:
 
