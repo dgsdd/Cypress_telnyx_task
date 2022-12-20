@@ -12,6 +12,7 @@ npm install cypress --save-dev
 Go to package.json file and add in two different scripts, for cypress run and the other for cypress open:
 
 "scripts": {
+
     "cypress:run": "cypress run",
     
     "cypress:open": "cypress open"
